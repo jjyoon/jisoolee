@@ -1655,9 +1655,9 @@
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		background: #CCE8F4 url("../../images/background.png");
 		background-position: center center;
-		background-size: auto 100%;
+		background-size: cover;
 		background-repeat: no-repeat;
 		text-align: center;
 	}
@@ -2032,8 +2032,8 @@
 			}
 
 				#intro section {
-					margin: 3em 0;
-					padding: 2.5em 0;
+					margin: 0 0 2em 0;
+/*					padding: 2.5em 0;*/
 				}
 
 				#intro h2 {
@@ -2551,3 +2551,24 @@
 				}
 
 	}
+
+/* custom css */
+
+.resume-link {
+    color: #d52349;
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: auto;
+}
+
+.jisoo-bio {
+    text-align: left;
+}
